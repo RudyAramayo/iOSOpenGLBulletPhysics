@@ -1,0 +1,166 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bChunk.cpp
+bChunk.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bChunk.h
+bDefines.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bDefines.h
+bFile.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bFile.h
+memory.h
+-
+string.h
+-
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bChunk.h
+stdint.h
+-
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bCommon.h
+assert.h
+-
+LinearMath/btAlignedObjectArray.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/LinearMath/btAlignedObjectArray.h
+LinearMath/btHashMap.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/LinearMath/btHashMap.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bDNA.cpp
+assert.h
+-
+bDNA.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bDNA.h
+bChunk.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bChunk.h
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bDNA.h
+bCommon.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bCommon.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bDefines.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bFile.cpp
+bFile.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bFile.h
+bCommon.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bCommon.h
+bChunk.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bChunk.h
+bDNA.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bDNA.h
+math.h
+-
+string.h
+-
+stdlib.h
+-
+bDefines.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bDefines.h
+LinearMath/btSerializer.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/LinearMath/btSerializer.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bFile.h
+bCommon.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bCommon.h
+bChunk.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bChunk.h
+stdio.h
+-
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/btBulletFile.cpp
+btBulletFile.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/btBulletFile.h
+bDefines.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bDefines.h
+bDNA.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bDNA.h
+memory.h
+-
+string.h
+-
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/btBulletFile.h
+bFile.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bFile.h
+LinearMath/btAlignedObjectArray.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/LinearMath/btAlignedObjectArray.h
+bDefines.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/bDefines.h
+LinearMath/btSerializer.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/Serialize/BulletFileLoader/LinearMath/btSerializer.h
+
+src/LinearMath/btAlignedAllocator.h
+btScalar.h
+src/LinearMath/btScalar.h
+
+src/LinearMath/btAlignedObjectArray.h
+btScalar.h
+src/LinearMath/btScalar.h
+btAlignedAllocator.h
+src/LinearMath/btAlignedAllocator.h
+memory.h
+-
+string.h
+-
+new
+-
+
+src/LinearMath/btHashMap.h
+btAlignedObjectArray.h
+src/LinearMath/btAlignedObjectArray.h
+
+src/LinearMath/btScalar.h
+math.h
+-
+stdlib.h
+-
+float.h
+-
+ppcintrinsics.h
+-
+emmintrin.h
+-
+assert.h
+-
+assert.h
+-
+spu_printf.h
+-
+assert.h
+-
+emmintrin.h
+-
+assert.h
+-
+assert.h
+-
+
+src/LinearMath/btSerializer.h
+btScalar.h
+src/LinearMath/btScalar.h
+btStackAlloc.h
+src/LinearMath/btStackAlloc.h
+btHashMap.h
+src/LinearMath/btHashMap.h
+memory.h
+-
+string.h
+-
+
+src/LinearMath/btStackAlloc.h
+btScalar.h
+src/LinearMath/btScalar.h
+btAlignedAllocator.h
+src/LinearMath/btAlignedAllocator.h
+

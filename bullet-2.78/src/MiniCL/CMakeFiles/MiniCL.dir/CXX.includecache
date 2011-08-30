@@ -1,0 +1,314 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCL.cpp
+MiniCL/cl.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCL/cl.h
+BulletMultiThreaded/Win32ThreadSupport.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/BulletMultiThreaded/Win32ThreadSupport.h
+BulletMultiThreaded/SequentialThreadSupport.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/BulletMultiThreaded/SequentialThreadSupport.h
+MiniCLTaskScheduler.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTaskScheduler.h
+MiniCLTask/MiniCLTask.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTask/MiniCLTask.h
+LinearMath/btMinMax.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/LinearMath/btMinMax.h
+stdio.h
+-
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTask/MiniCLTask.cpp
+MiniCLTask.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTask/MiniCLTask.h
+BulletMultiThreaded/PlatformDefinitions.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTask/BulletMultiThreaded/PlatformDefinitions.h
+BulletMultiThreaded/SpuFakeDma.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTask/BulletMultiThreaded/SpuFakeDma.h
+LinearMath/btMinMax.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTask/LinearMath/btMinMax.h
+MiniCLTask.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTask/MiniCLTask.h
+MiniCL/MiniCLTaskScheduler.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTask/MiniCL/MiniCLTaskScheduler.h
+spu_printf.h
+-
+stdio.h
+-
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTask/MiniCLTask.h
+BulletMultiThreaded/PlatformDefinitions.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTask/BulletMultiThreaded/PlatformDefinitions.h
+LinearMath/btScalar.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTask/LinearMath/btScalar.h
+LinearMath/btAlignedAllocator.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTask/LinearMath/btAlignedAllocator.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTaskScheduler.cpp
+MiniCLTaskScheduler.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTaskScheduler.h
+stdio.h
+-
+BulletMultiThreaded/btThreadSupportInterface.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/BulletMultiThreaded/btThreadSupportInterface.h
+string.h
+-
+MiniCL/cl_platform.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCL/cl_platform.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTaskScheduler.h
+assert.h
+-
+BulletMultiThreaded/PlatformDefinitions.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/BulletMultiThreaded/PlatformDefinitions.h
+stdlib.h
+-
+LinearMath/btAlignedObjectArray.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/LinearMath/btAlignedObjectArray.h
+MiniCLTask/MiniCLTask.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/MiniCLTask/MiniCLTask.h
+../SpuLibspe2Support.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/MiniCL/../SpuLibspe2Support.h
+spu_intrinsics.h
+-
+spu_mfcio.h
+-
+SpuFakeDma.h
+-
+
+src/BulletMultiThreaded/PlatformDefinitions.h
+LinearMath/btScalar.h
+src/BulletMultiThreaded/LinearMath/btScalar.h
+LinearMath/btMinMax.h
+src/BulletMultiThreaded/LinearMath/btMinMax.h
+physics_effects/base_level/base/pfx_vectormath_include.win32.h
+src/BulletMultiThreaded/physics_effects/base_level/base/pfx_vectormath_include.win32.h
+vectormath/vmInclude.h
+src/BulletMultiThreaded/vectormath/vmInclude.h
+malloc.h
+-
+string.h
+-
+stdio.h
+-
+stdint.h
+-
+stdlib.h
+-
+string.h
+-
+spu_printf.h
+-
+stdio.h
+-
+stdio.h
+-
+PpuAddressSpace.h
+src/BulletMultiThreaded/PpuAddressSpace.h
+
+src/BulletMultiThreaded/PpuAddressSpace.h
+
+src/BulletMultiThreaded/SequentialThreadSupport.h
+LinearMath/btScalar.h
+src/BulletMultiThreaded/LinearMath/btScalar.h
+PlatformDefinitions.h
+src/BulletMultiThreaded/PlatformDefinitions.h
+LinearMath/btAlignedObjectArray.h
+src/BulletMultiThreaded/LinearMath/btAlignedObjectArray.h
+btThreadSupportInterface.h
+src/BulletMultiThreaded/btThreadSupportInterface.h
+
+src/BulletMultiThreaded/SpuFakeDma.h
+PlatformDefinitions.h
+src/BulletMultiThreaded/PlatformDefinitions.h
+LinearMath/btScalar.h
+src/BulletMultiThreaded/LinearMath/btScalar.h
+cell/dma.h
+-
+stdint.h
+-
+spu_mfcio.h
+-
+
+src/BulletMultiThreaded/Win32ThreadSupport.h
+LinearMath/btScalar.h
+src/BulletMultiThreaded/LinearMath/btScalar.h
+PlatformDefinitions.h
+src/BulletMultiThreaded/PlatformDefinitions.h
+LinearMath/btAlignedObjectArray.h
+src/BulletMultiThreaded/LinearMath/btAlignedObjectArray.h
+btThreadSupportInterface.h
+src/BulletMultiThreaded/btThreadSupportInterface.h
+
+src/BulletMultiThreaded/btThreadSupportInterface.h
+LinearMath/btScalar.h
+-
+PlatformDefinitions.h
+src/BulletMultiThreaded/PlatformDefinitions.h
+PpuAddressSpace.h
+src/BulletMultiThreaded/PpuAddressSpace.h
+
+src/LinearMath/btAlignedAllocator.h
+btScalar.h
+src/LinearMath/btScalar.h
+
+src/LinearMath/btAlignedObjectArray.h
+btScalar.h
+src/LinearMath/btScalar.h
+btAlignedAllocator.h
+src/LinearMath/btAlignedAllocator.h
+memory.h
+-
+string.h
+-
+new
+-
+
+src/LinearMath/btMinMax.h
+LinearMath/btScalar.h
+src/LinearMath/LinearMath/btScalar.h
+
+src/LinearMath/btScalar.h
+math.h
+-
+stdlib.h
+-
+float.h
+-
+ppcintrinsics.h
+-
+emmintrin.h
+-
+assert.h
+-
+assert.h
+-
+spu_printf.h
+-
+assert.h
+-
+emmintrin.h
+-
+assert.h
+-
+assert.h
+-
+
+src/MiniCL/MiniCLTask/MiniCLTask.h
+BulletMultiThreaded/PlatformDefinitions.h
+src/MiniCL/MiniCLTask/BulletMultiThreaded/PlatformDefinitions.h
+LinearMath/btScalar.h
+src/MiniCL/MiniCLTask/LinearMath/btScalar.h
+LinearMath/btAlignedAllocator.h
+src/MiniCL/MiniCLTask/LinearMath/btAlignedAllocator.h
+
+src/MiniCL/MiniCLTaskScheduler.h
+assert.h
+-
+BulletMultiThreaded/PlatformDefinitions.h
+src/MiniCL/BulletMultiThreaded/PlatformDefinitions.h
+stdlib.h
+-
+LinearMath/btAlignedObjectArray.h
+src/MiniCL/LinearMath/btAlignedObjectArray.h
+MiniCLTask/MiniCLTask.h
+src/MiniCL/MiniCLTask/MiniCLTask.h
+../SpuLibspe2Support.h
+src/MiniCL/../SpuLibspe2Support.h
+spu_intrinsics.h
+-
+spu_mfcio.h
+-
+SpuFakeDma.h
+-
+
+src/MiniCL/cl.h
+MiniCL/cl_platform.h
+-
+MiniCL/cl_platform.h
+-
+
+src/MiniCL/cl_platform.h
+AvailabilityMacros.h
+-
+stdint.h
+-
+stddef.h
+-
+
+src/vectormath/scalar/vectormath_aos.h
+math.h
+-
+stdio.h
+-
+vec_aos.h
+src/vectormath/scalar/vec_aos.h
+quat_aos.h
+src/vectormath/scalar/quat_aos.h
+mat_aos.h
+src/vectormath/scalar/mat_aos.h
+
+src/vectormath/sse/boolInVec.h
+math.h
+-
+floatInVec.h
+src/vectormath/sse/floatInVec.h
+
+src/vectormath/sse/floatInVec.h
+math.h
+-
+xmmintrin.h
+-
+boolInVec.h
+src/vectormath/sse/boolInVec.h
+
+src/vectormath/sse/mat_aos.h
+
+src/vectormath/sse/quat_aos.h
+
+src/vectormath/sse/vec_aos.h
+
+src/vectormath/sse/vecidx_aos.h
+floatInVec.h
+src/vectormath/sse/floatInVec.h
+
+src/vectormath/sse/vectormath_aos.h
+math.h
+-
+xmmintrin.h
+-
+emmintrin.h
+-
+assert.h
+-
+pmmintrin.h
+-
+vecidx_aos.h
+src/vectormath/sse/vecidx_aos.h
+floatInVec.h
+src/vectormath/sse/floatInVec.h
+boolInVec.h
+src/vectormath/sse/boolInVec.h
+stdio.h
+-
+vec_aos.h
+src/vectormath/sse/vec_aos.h
+quat_aos.h
+src/vectormath/sse/quat_aos.h
+mat_aos.h
+src/vectormath/sse/mat_aos.h
+
+src/vectormath/vmInclude.h
+LinearMath/btScalar.h
+src/vectormath/LinearMath/btScalar.h
+vectormath_aos.h
+-
+sse/vectormath_aos.h
+src/vectormath/sse/vectormath_aos.h
+scalar/vectormath_aos.h
+src/vectormath/scalar/vectormath_aos.h
+

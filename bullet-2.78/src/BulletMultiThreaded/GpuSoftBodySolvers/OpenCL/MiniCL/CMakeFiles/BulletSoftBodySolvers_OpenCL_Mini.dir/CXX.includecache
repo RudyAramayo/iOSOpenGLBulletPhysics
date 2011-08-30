@@ -1,0 +1,508 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/ApplyForces.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/Integrate.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/PrepareLinks.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/SolveCollisionsAndUpdateVelocities.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/SolvePositions.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/UpdateConstants.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/UpdateNodes.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/UpdateNormals.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/UpdatePositions.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/UpdatePositionsFromVelocities.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/VSolveLinks.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/ApplyForces.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/Integrate.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/PrepareLinks.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/SolveCollisionsAndUpdateVelocities.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/SolvePositions.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateConstants.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateNodes.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateNormals.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdatePositions.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdatePositionsFromVelocities.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/VSolveLinks.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
+MiniCL/cl.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/cl.h
+OpenCL/OpenCL.h
+-
+CL/cl.h
+-
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverLinkData_OpenCL.h
+BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolverData.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolverData.h
+btSoftBodySolverBuffer_OpenCL.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverTriangleData_OpenCL.h
+BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolverData.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolverData.h
+btSoftBodySolverBuffer_OpenCL.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverVertexData_OpenCL.h
+BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolverData.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolverData.h
+btSoftBodySolverBuffer_OpenCL.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.cpp
+BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h
+vectormath/vmInclude.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/vectormath/vmInclude.h
+stdio.h
+-
+btSoftBodySolver_OpenCL.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.h
+BulletSoftBody/btSoftBodySolverVertexBuffer.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletSoftBody/btSoftBodySolverVertexBuffer.h
+BulletSoftBody/btSoftBody.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletSoftBody/btSoftBody.h
+BulletCollision/CollisionShapes/btCapsuleShape.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletCollision/CollisionShapes/btCapsuleShape.h
+LinearMath/btQuickprof.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/LinearMath/btQuickprof.h
+limits.h
+-
+MiniCL/cl.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/cl.h
+OpenCL/OpenCL.h
+-
+CL/cl.h
+-
+OpenCLC/PrepareLinks.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/PrepareLinks.cl
+OpenCLC/UpdatePositionsFromVelocities.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/UpdatePositionsFromVelocities.cl
+OpenCLC/SolvePositions.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/SolvePositions.cl
+OpenCLC/UpdateNodes.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/UpdateNodes.cl
+OpenCLC/UpdatePositions.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/UpdatePositions.cl
+OpenCLC/UpdateConstants.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/UpdateConstants.cl
+OpenCLC/Integrate.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/Integrate.cl
+OpenCLC/ApplyForces.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/ApplyForces.cl
+OpenCLC/UpdateNormals.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/UpdateNormals.cl
+OpenCLC/VSolveLinks.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/VSolveLinks.cl
+OpenCLC/SolveCollisionsAndUpdateVelocities.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC/SolveCollisionsAndUpdateVelocities.cl
+OpenCLC10/PrepareLinks.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/PrepareLinks.cl
+OpenCLC10/UpdatePositionsFromVelocities.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdatePositionsFromVelocities.cl
+OpenCLC10/SolvePositions.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/SolvePositions.cl
+OpenCLC10/UpdateNodes.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateNodes.cl
+OpenCLC10/UpdatePositions.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdatePositions.cl
+OpenCLC10/UpdateConstants.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateConstants.cl
+OpenCLC10/Integrate.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/Integrate.cl
+OpenCLC10/ApplyForces.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/ApplyForces.cl
+OpenCLC10/UpdateNormals.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateNormals.cl
+OpenCLC10/VSolveLinks.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/VSolveLinks.cl
+OpenCLC10/SolveCollisionsAndUpdateVelocities.cl
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/SolveCollisionsAndUpdateVelocities.cl
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.h
+stddef.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/stddef.h
+vectormath/vmInclude.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/vectormath/vmInclude.h
+BulletSoftBody/btSoftBodySolvers.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletSoftBody/btSoftBodySolvers.h
+btSoftBodySolverBuffer_OpenCL.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
+btSoftBodySolverLinkData_OpenCL.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverLinkData_OpenCL.h
+btSoftBodySolverVertexData_OpenCL.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverVertexData_OpenCL.h
+btSoftBodySolverTriangleData_OpenCL.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverTriangleData_OpenCL.h
+
+src/BulletCollision/BroadphaseCollision/btBroadphaseProxy.h
+LinearMath/btScalar.h
+src/BulletCollision/BroadphaseCollision/LinearMath/btScalar.h
+LinearMath/btVector3.h
+src/BulletCollision/BroadphaseCollision/LinearMath/btVector3.h
+LinearMath/btAlignedAllocator.h
+src/BulletCollision/BroadphaseCollision/LinearMath/btAlignedAllocator.h
+
+src/BulletCollision/BroadphaseCollision/btDbvt.h
+LinearMath/btAlignedObjectArray.h
+src/BulletCollision/BroadphaseCollision/LinearMath/btAlignedObjectArray.h
+LinearMath/btVector3.h
+src/BulletCollision/BroadphaseCollision/LinearMath/btVector3.h
+LinearMath/btTransform.h
+src/BulletCollision/BroadphaseCollision/LinearMath/btTransform.h
+LinearMath/btAabbUtil2.h
+src/BulletCollision/BroadphaseCollision/LinearMath/btAabbUtil2.h
+emmintrin.h
+-
+memory.h
+-
+string.h
+-
+
+src/BulletCollision/CollisionDispatch/btCollisionCreateFunc.h
+LinearMath/btAlignedObjectArray.h
+src/BulletCollision/CollisionDispatch/LinearMath/btAlignedObjectArray.h
+
+src/BulletCollision/CollisionDispatch/btCollisionObject.h
+LinearMath/btTransform.h
+src/BulletCollision/CollisionDispatch/LinearMath/btTransform.h
+LinearMath/btMotionState.h
+src/BulletCollision/CollisionDispatch/LinearMath/btMotionState.h
+LinearMath/btAlignedAllocator.h
+src/BulletCollision/CollisionDispatch/LinearMath/btAlignedAllocator.h
+LinearMath/btAlignedObjectArray.h
+src/BulletCollision/CollisionDispatch/LinearMath/btAlignedObjectArray.h
+
+src/BulletCollision/CollisionShapes/btCapsuleShape.h
+btConvexInternalShape.h
+src/BulletCollision/CollisionShapes/btConvexInternalShape.h
+BulletCollision/BroadphaseCollision/btBroadphaseProxy.h
+src/BulletCollision/CollisionShapes/BulletCollision/BroadphaseCollision/btBroadphaseProxy.h
+
+src/BulletCollision/CollisionShapes/btCollisionMargin.h
+
+src/BulletCollision/CollisionShapes/btCollisionShape.h
+LinearMath/btTransform.h
+src/BulletCollision/CollisionShapes/LinearMath/btTransform.h
+LinearMath/btVector3.h
+src/BulletCollision/CollisionShapes/LinearMath/btVector3.h
+LinearMath/btMatrix3x3.h
+src/BulletCollision/CollisionShapes/LinearMath/btMatrix3x3.h
+BulletCollision/BroadphaseCollision/btBroadphaseProxy.h
+src/BulletCollision/CollisionShapes/BulletCollision/BroadphaseCollision/btBroadphaseProxy.h
+
+src/BulletCollision/CollisionShapes/btConcaveShape.h
+btCollisionShape.h
+src/BulletCollision/CollisionShapes/btCollisionShape.h
+BulletCollision/BroadphaseCollision/btBroadphaseProxy.h
+src/BulletCollision/CollisionShapes/BulletCollision/BroadphaseCollision/btBroadphaseProxy.h
+btTriangleCallback.h
+src/BulletCollision/CollisionShapes/btTriangleCallback.h
+
+src/BulletCollision/CollisionShapes/btConvexInternalShape.h
+btConvexShape.h
+src/BulletCollision/CollisionShapes/btConvexShape.h
+LinearMath/btAabbUtil2.h
+src/BulletCollision/CollisionShapes/LinearMath/btAabbUtil2.h
+
+src/BulletCollision/CollisionShapes/btConvexShape.h
+btCollisionShape.h
+src/BulletCollision/CollisionShapes/btCollisionShape.h
+LinearMath/btVector3.h
+src/BulletCollision/CollisionShapes/LinearMath/btVector3.h
+LinearMath/btTransform.h
+src/BulletCollision/CollisionShapes/LinearMath/btTransform.h
+LinearMath/btMatrix3x3.h
+src/BulletCollision/CollisionShapes/LinearMath/btMatrix3x3.h
+btCollisionMargin.h
+src/BulletCollision/CollisionShapes/btCollisionMargin.h
+LinearMath/btAlignedAllocator.h
+src/BulletCollision/CollisionShapes/LinearMath/btAlignedAllocator.h
+
+src/BulletCollision/CollisionShapes/btStridingMeshInterface.h
+LinearMath/btVector3.h
+src/BulletCollision/CollisionShapes/LinearMath/btVector3.h
+btTriangleCallback.h
+src/BulletCollision/CollisionShapes/btTriangleCallback.h
+btConcaveShape.h
+src/BulletCollision/CollisionShapes/btConcaveShape.h
+
+src/BulletCollision/CollisionShapes/btTriangleCallback.h
+LinearMath/btVector3.h
+src/BulletCollision/CollisionShapes/LinearMath/btVector3.h
+
+src/BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h
+btStridingMeshInterface.h
+src/BulletCollision/CollisionShapes/btStridingMeshInterface.h
+LinearMath/btAlignedObjectArray.h
+src/BulletCollision/CollisionShapes/LinearMath/btAlignedObjectArray.h
+LinearMath/btScalar.h
+src/BulletCollision/CollisionShapes/LinearMath/btScalar.h
+
+src/BulletCollision/NarrowPhaseCollision/btGjkEpa2.h
+BulletCollision/CollisionShapes/btConvexShape.h
+src/BulletCollision/NarrowPhaseCollision/BulletCollision/CollisionShapes/btConvexShape.h
+
+src/BulletDynamics/Dynamics/btRigidBody.h
+LinearMath/btAlignedObjectArray.h
+src/BulletDynamics/Dynamics/LinearMath/btAlignedObjectArray.h
+LinearMath/btTransform.h
+src/BulletDynamics/Dynamics/LinearMath/btTransform.h
+BulletCollision/BroadphaseCollision/btBroadphaseProxy.h
+src/BulletDynamics/Dynamics/BulletCollision/BroadphaseCollision/btBroadphaseProxy.h
+BulletCollision/CollisionDispatch/btCollisionObject.h
+src/BulletDynamics/Dynamics/BulletCollision/CollisionDispatch/btCollisionObject.h
+
+src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolverData.h
+BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h
+src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h
+vectormath/vmInclude.h
+src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/vectormath/vmInclude.h
+
+src/BulletSoftBody/btSoftBody.h
+LinearMath/btAlignedObjectArray.h
+src/BulletSoftBody/LinearMath/btAlignedObjectArray.h
+LinearMath/btTransform.h
+src/BulletSoftBody/LinearMath/btTransform.h
+LinearMath/btIDebugDraw.h
+src/BulletSoftBody/LinearMath/btIDebugDraw.h
+BulletDynamics/Dynamics/btRigidBody.h
+src/BulletSoftBody/BulletDynamics/Dynamics/btRigidBody.h
+BulletCollision/CollisionShapes/btConcaveShape.h
+src/BulletSoftBody/BulletCollision/CollisionShapes/btConcaveShape.h
+BulletCollision/CollisionDispatch/btCollisionCreateFunc.h
+src/BulletSoftBody/BulletCollision/CollisionDispatch/btCollisionCreateFunc.h
+btSparseSDF.h
+src/BulletSoftBody/btSparseSDF.h
+BulletCollision/BroadphaseCollision/btDbvt.h
+src/BulletSoftBody/BulletCollision/BroadphaseCollision/btDbvt.h
+
+src/BulletSoftBody/btSoftBodySolverVertexBuffer.h
+
+src/BulletSoftBody/btSoftBodySolvers.h
+BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h
+src/BulletSoftBody/BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h
+
+src/BulletSoftBody/btSparseSDF.h
+BulletCollision/CollisionDispatch/btCollisionObject.h
+src/BulletSoftBody/BulletCollision/CollisionDispatch/btCollisionObject.h
+BulletCollision/NarrowPhaseCollision/btGjkEpa2.h
+src/BulletSoftBody/BulletCollision/NarrowPhaseCollision/btGjkEpa2.h
+
+src/LinearMath/btAabbUtil2.h
+btTransform.h
+src/LinearMath/btTransform.h
+btVector3.h
+src/LinearMath/btVector3.h
+btMinMax.h
+src/LinearMath/btMinMax.h
+
+src/LinearMath/btAlignedAllocator.h
+btScalar.h
+src/LinearMath/btScalar.h
+
+src/LinearMath/btAlignedObjectArray.h
+btScalar.h
+src/LinearMath/btScalar.h
+btAlignedAllocator.h
+src/LinearMath/btAlignedAllocator.h
+memory.h
+-
+string.h
+-
+new
+-
+
+src/LinearMath/btIDebugDraw.h
+btVector3.h
+src/LinearMath/btVector3.h
+btTransform.h
+src/LinearMath/btTransform.h
+
+src/LinearMath/btMatrix3x3.h
+btVector3.h
+src/LinearMath/btVector3.h
+btQuaternion.h
+src/LinearMath/btQuaternion.h
+
+src/LinearMath/btMinMax.h
+LinearMath/btScalar.h
+src/LinearMath/LinearMath/btScalar.h
+
+src/LinearMath/btMotionState.h
+btTransform.h
+src/LinearMath/btTransform.h
+
+src/LinearMath/btQuadWord.h
+btScalar.h
+src/LinearMath/btScalar.h
+btMinMax.h
+src/LinearMath/btMinMax.h
+altivec.h
+-
+
+src/LinearMath/btQuaternion.h
+btVector3.h
+src/LinearMath/btVector3.h
+btQuadWord.h
+src/LinearMath/btQuadWord.h
+
+src/LinearMath/btQuickprof.h
+stdio.h
+-
+btScalar.h
+src/LinearMath/btScalar.h
+btAlignedAllocator.h
+src/LinearMath/btAlignedAllocator.h
+new
+-
+
+src/LinearMath/btScalar.h
+math.h
+-
+stdlib.h
+-
+float.h
+-
+ppcintrinsics.h
+-
+emmintrin.h
+-
+assert.h
+-
+assert.h
+-
+spu_printf.h
+-
+assert.h
+-
+emmintrin.h
+-
+assert.h
+-
+assert.h
+-
+
+src/LinearMath/btTransform.h
+btMatrix3x3.h
+src/LinearMath/btMatrix3x3.h
+
+src/LinearMath/btVector3.h
+btScalar.h
+src/LinearMath/btScalar.h
+btMinMax.h
+src/LinearMath/btMinMax.h
+
+src/MiniCL/cl.h
+MiniCL/cl_platform.h
+-
+MiniCL/cl_platform.h
+-
+
+src/MiniCL/cl_platform.h
+AvailabilityMacros.h
+-
+stdint.h
+-
+stddef.h
+-
+
+src/vectormath/scalar/vectormath_aos.h
+math.h
+-
+stdio.h
+-
+vec_aos.h
+src/vectormath/scalar/vec_aos.h
+quat_aos.h
+src/vectormath/scalar/quat_aos.h
+mat_aos.h
+src/vectormath/scalar/mat_aos.h
+
+src/vectormath/sse/boolInVec.h
+math.h
+-
+floatInVec.h
+src/vectormath/sse/floatInVec.h
+
+src/vectormath/sse/floatInVec.h
+math.h
+-
+xmmintrin.h
+-
+boolInVec.h
+src/vectormath/sse/boolInVec.h
+
+src/vectormath/sse/mat_aos.h
+
+src/vectormath/sse/quat_aos.h
+
+src/vectormath/sse/vec_aos.h
+
+src/vectormath/sse/vecidx_aos.h
+floatInVec.h
+src/vectormath/sse/floatInVec.h
+
+src/vectormath/sse/vectormath_aos.h
+math.h
+-
+xmmintrin.h
+-
+emmintrin.h
+-
+assert.h
+-
+pmmintrin.h
+-
+vecidx_aos.h
+src/vectormath/sse/vecidx_aos.h
+floatInVec.h
+src/vectormath/sse/floatInVec.h
+boolInVec.h
+src/vectormath/sse/boolInVec.h
+stdio.h
+-
+vec_aos.h
+src/vectormath/sse/vec_aos.h
+quat_aos.h
+src/vectormath/sse/quat_aos.h
+mat_aos.h
+src/vectormath/sse/mat_aos.h
+
+src/vectormath/vmInclude.h
+LinearMath/btScalar.h
+src/vectormath/LinearMath/btScalar.h
+vectormath_aos.h
+-
+sse/vectormath_aos.h
+src/vectormath/sse/vectormath_aos.h
+scalar/vectormath_aos.h
+src/vectormath/scalar/vectormath_aos.h
+

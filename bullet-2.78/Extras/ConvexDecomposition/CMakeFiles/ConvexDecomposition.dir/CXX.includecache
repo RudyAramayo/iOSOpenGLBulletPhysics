@@ -1,0 +1,372 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/ConvexBuilder.cpp
+float_math.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+ConvexBuilder.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/ConvexBuilder.h
+meshvolume.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/meshvolume.h
+bestfit.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/bestfit.h
+assert.h
+-
+cd_hull.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/cd_hull.h
+fitsphere.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/fitsphere.h
+bestfitobb.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/bestfitobb.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/ConvexBuilder.h
+ConvexDecomposition.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/ConvexDecomposition.h
+vlookup.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/vlookup.h
+LinearMath/btAlignedObjectArray.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/LinearMath/btAlignedObjectArray.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/ConvexDecomposition.cpp
+float_math.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+ConvexDecomposition.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/ConvexDecomposition.h
+cd_vector.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/cd_vector.h
+cd_hull.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/cd_hull.h
+bestfit.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/bestfit.h
+planetri.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/planetri.h
+vlookup.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/vlookup.h
+splitplane.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/splitplane.h
+meshvolume.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/meshvolume.h
+concavity.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/concavity.h
+bestfitobb.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/bestfitobb.h
+float_math.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+fitsphere.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/fitsphere.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/ConvexDecomposition.h
+memory.h
+-
+string.h
+-
+stdio.h
+-
+LinearMath/btAlignedObjectArray.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/LinearMath/btAlignedObjectArray.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/bestfit.cpp
+float_math.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+math.h
+-
+bestfit.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/bestfit.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/bestfit.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/bestfitobb.cpp
+float_math.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+assert.h
+-
+bestfitobb.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/bestfitobb.h
+float_math.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/bestfitobb.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/cd_hull.cpp
+float_math.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+math.h
+-
+float.h
+-
+cd_hull.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/cd_hull.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/cd_hull.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/cd_vector.h
+math.h
+-
+float.h
+-
+vector
+-
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/cd_wavefront.cpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+ctype.h
+-
+float_math.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+cd_wavefront.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/cd_wavefront.h
+vector
+-
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/cd_wavefront.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/concavity.cpp
+float_math.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+vector
+-
+concavity.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/concavity.h
+raytri.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/raytri.h
+bestfit.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/bestfit.h
+cd_hull.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/cd_hull.h
+meshvolume.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/meshvolume.h
+cd_vector.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/cd_vector.h
+splitplane.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/splitplane.h
+ConvexDecomposition.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/ConvexDecomposition.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/concavity.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/fitsphere.cpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+math.h
+-
+fitsphere.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/fitsphere.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/fitsphere.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.cpp
+float_math.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+math.h
+-
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/meshvolume.cpp
+float_math.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+meshvolume.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/meshvolume.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/meshvolume.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/planetri.cpp
+float_math.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+planetri.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/planetri.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/planetri.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/raytri.cpp
+float_math.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+math.h
+-
+raytri.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/raytri.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/raytri.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/splitplane.cpp
+float_math.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+float.h
+-
+math.h
+-
+splitplane.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/splitplane.h
+ConvexDecomposition.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/ConvexDecomposition.h
+cd_vector.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/cd_vector.h
+cd_hull.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/cd_hull.h
+cd_wavefront.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/cd_wavefront.h
+bestfit.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/bestfit.h
+planetri.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/planetri.h
+vlookup.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/vlookup.h
+meshvolume.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/meshvolume.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/splitplane.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/vlookup.cpp
+float_math.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/float_math.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+vector
+-
+map
+-
+set
+-
+vlookup.h
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/vlookup.h
+
+/Users/9r0ximi7y/Documents/Common Code/bullet-2.78/Extras/ConvexDecomposition/vlookup.h
+
+src/LinearMath/btAlignedAllocator.h
+btScalar.h
+src/LinearMath/btScalar.h
+
+src/LinearMath/btAlignedObjectArray.h
+btScalar.h
+src/LinearMath/btScalar.h
+btAlignedAllocator.h
+src/LinearMath/btAlignedAllocator.h
+memory.h
+-
+string.h
+-
+new
+-
+
+src/LinearMath/btScalar.h
+math.h
+-
+stdlib.h
+-
+float.h
+-
+ppcintrinsics.h
+-
+emmintrin.h
+-
+assert.h
+-
+assert.h
+-
+spu_printf.h
+-
+assert.h
+-
+emmintrin.h
+-
+assert.h
+-
+assert.h
+-
+
