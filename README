@@ -1,0 +1,30 @@
+How to insert Bullet Physics into iOS: iOS OpenGL BulletPhysics Sample Code Link: https://github.com/RudyAramayo/iOSOpenGLBulletPhysics
+
+Download the sample code or follow on a new project form Xcode with iOS openGL template:
+
+Download bullet physics... put it into a folder like the following:
+*(notice that there is a folder for the project that contains the Xcode project file)
+
+/MyProjectFolder/bullet-2.78/
+/MyProjectFolder/MyProject/MyProject.xcproj
+1.5. Run CMake in the physics directory to compile the frameworks (assuming you installed cmake already CMake: http://www.cmake.org/cmake/resources/software.html) This step is optional with the sample code I uploaded since it already included the compiled frameworks in it....that made the file 100 megs but what is 100 megs these days anyway?
+
+cmake . -G "Unix Makefiles" -DINSTALL_LIBS=ON -DBUILD_SHARED_LIBS=ON     -DFRAMEWORK=ON  -DCMAKE_OSX_ARCHITECTURES='i386;x86_64'     -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/Library/Frameworks     -DCMAKE_INSTALL_NAME_DIR=/Library/Frameworks -DBUILD_DEMOS:BOOL=OFF
+make -j4
+sudo make install
+Goto your MyProject.xcproj and open in Xcode...
+in XCode goto any file you wish to add the physics code to... you must understand that cpp files are c++ and .m .h files are generally cocoa. You must change the Class you wish to add the physics engine code to have a .mm extension signifying it should be compiled as Objective-C++ code...
+
+In the particular class you want to add the physics which is now an Objective-C++ file or a cpp file, add the line
+
+#include "btBulletDynamicsCommon.h"
+and you should compile...the error is that the file is not found...
+
+Next goto the MyProjectFolder/bullet-2.78/src and drag the src folder into your project.
+Delete the folder named BulletMultiThread...it will eliminate the error of trying to compile some openCL (.cl) files
+
+Last step, copy the following frameworks from the src folder of your bullet physics installation into your project:
+
+/MyProjectFolder/bullet-2.78/LinearMath/LinearMath.framework /MyProjectFolder/bullet-2.78/BulletCollision/BulletCollision.framework /MyProjectFolder/bullet-2.78/LinearMath/LinearMath.framework
+
+Build and Run... should compile smoothly to iOS and Mac now...
