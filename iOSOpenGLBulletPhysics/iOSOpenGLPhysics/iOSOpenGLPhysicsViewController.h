@@ -17,8 +17,10 @@
 
 #include "btBulletDynamicsCommon.h"
 
+@class AccelerometerFilter;
 
-@interface iOSOpenGLPhysicsViewController : UIViewController {
+
+@interface iOSOpenGLPhysicsViewController : UIViewController <UIAccelerometerDelegate>{
     EAGLContext *context;
     GLuint program;
     
@@ -39,8 +41,8 @@
     bool reset;
 	bool left;
 	int steps;
-
     
+    AccelerometerFilter* m_filter;
 }
 
 @property (readonly, nonatomic, getter=isAnimating) BOOL animating;

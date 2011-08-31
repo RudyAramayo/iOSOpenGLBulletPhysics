@@ -10,6 +10,7 @@
 
 #import "iOSOpenGLPhysicsViewController.h"
 #import "EAGLView.h"
+#import "AccelerometerFilter.h"
 
 
 // Uniform index.
@@ -72,6 +73,17 @@ enum {
     
     
     
+    float updateFrequency = 20.0f;
+    m_filter = [[LowpassFilter alloc] initWithSampleRate:updateFrequency
+                                         cutoffFrequency:20.0];
+    m_filter.adaptive = YES;
+    
+    [[UIAccelerometer sharedAccelerometer] setUpdateInterval:1.0 / updateFrequency];
+    [[UIAccelerometer sharedAccelerometer] setDelegate:self];
+    
+    
+    
+    
     btBroadphaseInterface* broadphase = new btDbvtBroadphase();
 	btDefaultCollisionConfiguration* collisionConfiguration = new btDefaultCollisionConfiguration();
 	btCollisionDispatcher* dispatcher = new btCollisionDispatcher(collisionConfiguration);
@@ -80,20 +92,40 @@ enum {
 	dynamicsWorld->setGravity(btVector3(0,-9.8,0));
 
     
+    
     btCollisionShape *groundShape = new btBoxShape(btVector3(15,0.1,15));
-    
-    
-    
-   
-	btDefaultMotionState *groundMotionState = new btDefaultMotionState(btTransform(btQuaternion(0,0,0,1),btVector3(-7.5,0,0)));
-	btRigidBody::btRigidBodyConstructionInfo groundRigidBodyCI(0,groundMotionState,groundShape,btVector3(0,0,0));
-	groundRigidBodyCI.m_restitution = 0.3;
-	btRigidBody* groundRigidBody = new btRigidBody(groundRigidBodyCI);
-	
-	dynamicsWorld->addRigidBody(groundRigidBody);
-	btTransform gTrans;
-	groundRigidBody->getMotionState()->getWorldTransform(gTrans);
+	btDefaultMotionState *groundMotionState = new btDefaultMotionState(btTransform(btQuaternion(0,0,0,1),btVector3(0,-5,0)));
 
+    
+	btRigidBody::btRigidBodyConstructionInfo groundRigidBodyCI(0,groundMotionState,groundShape,btVector3(0,0,0));
+	groundRigidBodyCI.m_restitution = 0.0;
+	btRigidBody* groundRigidBody = new btRigidBody(groundRigidBodyCI);
+	dynamicsWorld->addRigidBody(groundRigidBody);
+	
+    btCollisionShape *cielingShape = new btBoxShape(btVector3(15,0.1,15));
+	btDefaultMotionState *cielingMotionState = new btDefaultMotionState(btTransform(btQuaternion(0,0,0,1),btVector3(0,5,0)));
+	btRigidBody::btRigidBodyConstructionInfo cielingRigidBodyCI(0,cielingMotionState,cielingShape,btVector3(0,0,0));
+	cielingRigidBodyCI.m_restitution = 0.3;
+	btRigidBody* cielingRigidBody = new btRigidBody(cielingRigidBodyCI);
+	dynamicsWorld->addRigidBody(cielingRigidBody);
+	
+    btCollisionShape *leftWallShape = new btBoxShape(btVector3(0.1,15,15));
+	btDefaultMotionState *leftWallMotionState = new btDefaultMotionState(btTransform(btQuaternion(0,0,0,1),btVector3(-5,0,0)));
+	btRigidBody::btRigidBodyConstructionInfo leftWallRigidBodyCI(0,leftWallMotionState,leftWallShape,btVector3(0,0,0));
+	leftWallRigidBodyCI.m_restitution = 0.8;
+	btRigidBody* leftWallRigidBody = new btRigidBody(leftWallRigidBodyCI);
+	dynamicsWorld->addRigidBody(leftWallRigidBody);
+	
+    btCollisionShape *rightWallShape = new btBoxShape(btVector3(0.1,15,15));
+	btDefaultMotionState *rightWallMotionState = new btDefaultMotionState(btTransform(btQuaternion(0,0,0,1),btVector3(5,0,0)));
+	btRigidBody::btRigidBodyConstructionInfo rightWallRigidBodyCI(0,rightWallMotionState,rightWallShape,btVector3(0,0,0));
+	rightWallRigidBodyCI.m_restitution = 0.8;
+	btRigidBody* rightWallRigidBody = new btRigidBody(rightWallRigidBodyCI);
+	dynamicsWorld->addRigidBody(rightWallRigidBody);
+	
+    btTransform gTrans;
+	groundRigidBody->getMotionState()->getWorldTransform(gTrans);
+    
 	
     //groundMesh.location = cc3v(gTrans.getOrigin().getX(),gTrans.getOrigin().getY() - 0.05,gTrans.getOrigin().getZ());
     
@@ -101,7 +133,7 @@ enum {
 	// ---------------    
     // Shape 1
     btCollisionShape *fallShape = new btBoxShape(btVector3(0.5,0.5,0.5));//btSphereShape(1);
-	btDefaultMotionState *fallMotionState = new btDefaultMotionState(btTransform(btQuaternion(0,0,0,1), btVector3(-7.5,5,0)));
+	btDefaultMotionState *fallMotionState = new btDefaultMotionState(btTransform(btQuaternion(0,0,0,1), btVector3(-2.5,0,0)));
 	btScalar mass = 1;
 	btVector3 fallInertia(0,0,0);
 	fallShape->calculateLocalInertia(mass, fallInertia);
@@ -115,7 +147,7 @@ enum {
 	// ---------------
     // Shape 2
     btCollisionShape *fallShape2 = new btBoxShape(btVector3(0.5,0.5,0.5));//btSphereShape(1);
-	btDefaultMotionState *fall2MotionState = new btDefaultMotionState(btTransform(btQuaternion(0,0,0,1), btVector3(-2.5,5,0)));
+	btDefaultMotionState *fall2MotionState = new btDefaultMotionState(btTransform(btQuaternion(0,0,0,1), btVector3(2.5,0,0)));
 	fallShape2->calculateLocalInertia(mass, fallInertia);
     btRigidBody::btRigidBodyConstructionInfo fallRigidBodyCI2(mass,fall2MotionState,fallShape2,fallInertia);
 	fallRigidBodyCI2.m_restitution = 0.3;
@@ -127,6 +159,20 @@ enum {
 	// ---------------	
     
 }
+
+
+- (void) accelerometer: (UIAccelerometer*) accelerometer
+         didAccelerate: (UIAcceleration*) acceleration
+{
+    [m_filter addAcceleration:acceleration];
+    
+    NSLog(@"accelerometer = (%f, %f)", m_filter.x, m_filter.y);
+    
+    static float gravity = 9.8;
+    
+    dynamicsWorld->setGravity(btVector3(m_filter.x * gravity, m_filter.y * gravity, 0.0));
+}
+
 
 - (void)dealloc
 {
@@ -282,8 +328,8 @@ enum {
     btQuaternion qRotation2 = trans2.getRotation();
     objectBAngle = qRotation2.getAngle();
 
-    NSLog(@"ObjectA = (%f, %f)    rotation = %f", objectAPosition.getX(), objectAPosition.getY(), objectAAngle);
-    NSLog(@"ObjectB = (%f, %f)    rotation = %f", objectBPosition.getX(), objectBPosition.getY(), objectBAngle);    
+    //NSLog(@"ObjectA = (%f, %f)    rotation = %f", objectAPosition.getX(), objectAPosition.getY(), objectAAngle);
+    //NSLog(@"ObjectB = (%f, %f)    rotation = %f", objectBPosition.getX(), objectBPosition.getY(), objectBAngle);    
 }
 
 

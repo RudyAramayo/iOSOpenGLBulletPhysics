@@ -347,6 +347,7 @@
 		BD166046140D5BF500141E01 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = BD165E37140D5BF300141E01 /* Makefile */; };
 		BD166047140D5BF500141E01 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = BD165E38140D5BF300141E01 /* Makefile */; };
 		BD166048140D5BF500141E01 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = BD165E39140D5BF300141E01 /* Makefile.am */; };
+		BD8E4FE0140ED80A00A20701 /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8E4FDF140ED80A00A20701 /* AccelerometerFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -899,6 +900,8 @@
 		BD165E69140D5BF300141E01 /* vecidx_aos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vecidx_aos.h; sourceTree = "<group>"; };
 		BD165E6A140D5BF300141E01 /* vectormath_aos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vectormath_aos.h; sourceTree = "<group>"; };
 		BD165E6B140D5BF300141E01 /* vmInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vmInclude.h; sourceTree = "<group>"; };
+		BD8E4FDE140ED80A00A20701 /* AccelerometerFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerFilter.h; sourceTree = "<group>"; };
+		BD8E4FDF140ED80A00A20701 /* AccelerometerFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerFilter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1091,6 +1094,8 @@
 				BD165AED140D57DB00141E01 /* MainWindow.xib */,
 				BD165AF0140D57DB00141E01 /* Shader.fsh */,
 				BD165AF2140D57DB00141E01 /* Shader.vsh */,
+				BD8E4FDE140ED80A00A20701 /* AccelerometerFilter.h */,
+				BD8E4FDF140ED80A00A20701 /* AccelerometerFilter.m */,
 				BD165AF4140D57DB00141E01 /* EAGLView.h */,
 				BD165AF5140D57DB00141E01 /* EAGLView.m */,
 				BD165AF7140D57DB00141E01 /* iOSOpenGLPhysicsViewController.h */,
@@ -2209,6 +2214,7 @@
 				BD166044140D5BF500141E01 /* Makefile in Sources */,
 				BD166046140D5BF500141E01 /* Makefile in Sources */,
 				BD166047140D5BF500141E01 /* Makefile in Sources */,
+				BD8E4FE0140ED80A00A20701 /* AccelerometerFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
