@@ -383,7 +383,14 @@ enum {
     } else {
     }
      
-
+    //Bullet physics needs to activate objects to keep them alive... if they aren't moving for a while, it turns them off to save processing time
+    // in this example we just keep the 2 squares on all the time...
+    
+    ((btCollisionObject *)fallRigidBody)->activate();
+    ((btCollisionObject *)fallRigidBody2)->activate();
+    
+    // Draw Objects
+    
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     glMatrixMode(GL_MODELVIEW);

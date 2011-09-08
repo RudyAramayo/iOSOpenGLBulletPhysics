@@ -825,7 +825,7 @@
 		<string>DocumentNavigableItemName</string>
 		<string>DocumentExtensionIdentifier</string>
 		<string>DocumentURL</string>
-		<string>public.c-header</string>
+		<string>public.objective-c-plus-plus-source</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -888,7 +888,7 @@
 				<integer>91</integer>
 			</dict>
 		</dict>
-		<string>iOSOpenGLPhysicsViewController.h</string>
+		<string>iOSOpenGLPhysicsViewController.mm</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -957,7 +957,7 @@
 				<integer>100</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/9r0ximi7y/Documents/Common%20Code/iOSOpenGLBulletPhysics/iOSOpenGLBulletPhysics/iOSOpenGLPhysics/iOSOpenGLPhysicsViewController.h</string>
+			<string>file://localhost/Users/9r0ximi7y/Documents/Common%20Code/iOSOpenGLBulletPhysics/iOSOpenGLBulletPhysics/iOSOpenGLPhysics/iOSOpenGLPhysicsViewController.mm</string>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -1036,11 +1036,11 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>337200427.17567199</real>
-		<string>{0, 676}</string>
+		<real>337201174.80688298</real>
+		<string>{12439, 1015}</string>
 		<false/>
-		<string>{676, 59}</string>
-		<string>@interface iOSOpenGLPhysicsViewController</string>
+		<string>{13163, 0}</string>
+		<string>-drawFrame</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
 			<key>$class</key>
@@ -1059,7 +1059,7 @@
 				<integer>115</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/9r0ximi7y/Documents/Common%20Code/iOSOpenGLBulletPhysics/iOSOpenGLBulletPhysics/iOSOpenGLPhysics/iOSOpenGLPhysicsViewController.h</string>
+		<string>file://localhost/Users/9r0ximi7y/Documents/Common%20Code/iOSOpenGLBulletPhysics/iOSOpenGLBulletPhysics/iOSOpenGLPhysics/iOSOpenGLPhysicsViewController.mm</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -2693,7 +2693,7 @@
 		</dict>
 		<string>IDEUtilitiesArea</string>
 		<real>260</real>
-		<string>iOSOpenGLPhysicsViewController.h</string>
+		<string>iOSOpenGLPhysicsViewController.mm</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3940,39 +3940,39 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>384</integer>
+					<integer>385</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>386</integer>
+					<integer>387</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>388</integer>
+					<integer>389</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>390</integer>
+					<integer>391</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>392</integer>
+					<integer>393</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>394</integer>
+					<integer>395</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>396</integer>
+					<integer>397</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>398</integer>
+					<integer>399</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>400</integer>
+					<integer>401</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -4097,8 +4097,17 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>99</integer>
+				<integer>384</integer>
 			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>100</integer>
+			</dict>
+			<key>NS.string</key>
+			<string>file://localhost/Users/9r0ximi7y/Documents/Common%20Code/iOSOpenGLBulletPhysics/iOSOpenGLBulletPhysics/iOSOpenGLPhysics/iOSOpenGLPhysicsViewController.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -4114,7 +4123,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>385</integer>
+				<integer>386</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -4140,7 +4149,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>387</integer>
+				<integer>388</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -4166,7 +4175,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>389</integer>
+				<integer>390</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -4192,7 +4201,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>391</integer>
+				<integer>392</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -4218,7 +4227,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>393</integer>
+				<integer>394</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -4244,7 +4253,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>395</integer>
+				<integer>396</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -4270,7 +4279,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>397</integer>
+				<integer>398</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -4296,7 +4305,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>399</integer>
+				<integer>400</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -4322,17 +4331,8 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>401</integer>
+				<integer>99</integer>
 			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>100</integer>
-			</dict>
-			<key>NS.string</key>
-			<string>file://localhost/Users/9r0ximi7y/Documents/Common%20Code/iOSOpenGLBulletPhysics/iOSOpenGLBulletPhysics/iOSOpenGLPhysics/iOSOpenGLPhysicsViewController.mm</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -4587,9 +4587,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>337200427.169819</real>
-		<string>{0, 676}</string>
-		<string>{676, 59}</string>
+		<real>337201043.11185098</real>
+		<string>{536, 606}</string>
+		<string>{532, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5021,9 +5021,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>337199973.59965998</real>
-		<string>{16216, 1449}</string>
-		<string>{4715, 0}</string>
+		<real>337201174.804645</real>
+		<string>{12439, 1015}</string>
+		<string>{13163, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -7185,11 +7185,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>491</integer>
+					<integer>630</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>629</integer>
+					<integer>491</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -7234,6 +7234,24 @@
 				<integer>627</integer>
 			</dict>
 		</dict>
+		<string>file://localhost/Users/9r0ximi7y/Documents/Common%20Code/iOSOpenGLBulletPhysics/iOSOpenGLBulletPhysics/iOSOpenGLPhysics/iOSOpenGLPhysicsViewController.mm</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>116</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>629</integer>
+			</dict>
+		</dict>
 		<string>file://localhost/Users/9r0ximi7y/Documents/Common%20Code/iOSOpenGLBulletPhysics/iOSOpenGLBulletPhysics/iOSOpenGLPhysics/iOSOpenGLPhysicsViewController.h</string>
 		<dict>
 			<key>$class</key>
@@ -7266,7 +7284,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>630</integer>
+				<integer>632</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/9r0ximi7y/Documents/Common%20Code/iOSOpenGLBulletPhysics/iOSOpenGLBulletPhysics/iOSOpenGLPhysics/iOSOpenGLPhysicsAppDelegate.mm</string>
@@ -7284,7 +7302,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>632</integer>
+				<integer>634</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/9r0ximi7y/Documents/Common%20Code/iOSOpenGLBulletPhysics/iOSOpenGLBulletPhysics/iOSOpenGLPhysics/en.lproj/MainWindow.xib</string>
@@ -7302,7 +7320,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>634</integer>
+				<integer>636</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/9r0ximi7y/Documents/Common%20Code/iOSOpenGLBulletPhysics/iOSOpenGLBulletPhysics/iOSOpenGLPhysics/Shaders/Shader.fsh</string>
@@ -7320,28 +7338,10 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>636</integer>
-			</dict>
-		</dict>
-		<string>file://localhost/Users/9r0ximi7y/Documents/Common%20Code/iOSOpenGLBulletPhysics/iOSOpenGLBulletPhysics/iOSOpenGLPhysics/Shaders/Shader.vsh</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>116</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
 				<integer>638</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/9r0ximi7y/Documents/Common%20Code/iOSOpenGLBulletPhysics/iOSOpenGLBulletPhysics/iOSOpenGLPhysics/iOSOpenGLPhysicsViewController.mm</string>
+		<string>file://localhost/Users/9r0ximi7y/Documents/Common%20Code/iOSOpenGLBulletPhysics/iOSOpenGLBulletPhysics/iOSOpenGLPhysics/Shaders/Shader.vsh</string>
 		<dict>
 			<key>$class</key>
 			<dict>
