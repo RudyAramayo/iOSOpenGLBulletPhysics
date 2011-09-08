@@ -130,7 +130,7 @@ enum {
     //groundMesh.location = cc3v(gTrans.getOrigin().getX(),gTrans.getOrigin().getY() - 0.05,gTrans.getOrigin().getZ());
     
     
-	// ---------------    
+	// ---------------
     // Shape 1
     btCollisionShape *fallShape = new btBoxShape(btVector3(0.5,0.5,0.5));//btSphereShape(1);
 	btDefaultMotionState *fallMotionState = new btDefaultMotionState(btTransform(btQuaternion(0,0,0,1), btVector3(-2.5,0,0)));
@@ -156,7 +156,7 @@ enum {
     fallRigidBody2->setLinearFactor(btVector3(1,1,0));
     fallRigidBody2->setAngularFactor(btVector3(0,0,1));
 	dynamicsWorld->addRigidBody(fallRigidBody2);
-	// ---------------	
+	// ---------------
     
 }
 

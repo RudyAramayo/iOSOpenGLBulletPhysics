@@ -1,3 +1,5 @@
+*** DOES NOT RUN IN SIMULATOR ***
+
 How to insert Bullet Physics into iOS: iOS OpenGL BulletPhysics Sample Code Link: https://github.com/RudyAramayo/iOSOpenGLBulletPhysics
 
 Download the sample code or follow on a new project form Xcode with iOS openGL template:
